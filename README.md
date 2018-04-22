@@ -20,6 +20,10 @@ The goal is to create project seed with:
     * Simplify build and development process for frontend and backend
     * Set up the proxy server that everything works on 8080 port during the development process
 
+## Documentation
+
+### Swagger UI
+http://localhost:8080/swagger-ui.html
 
 ## License
 
