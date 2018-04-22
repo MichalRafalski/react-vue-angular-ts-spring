@@ -22,6 +22,28 @@ The goal is to create project seed with:
 
 ## Documentation
 
+### How to run it
+* Backend
+    * Run project in maven
+* Frontend
+    * Go to .\src\main\frontend and run `npm install` and after that `npm run serve`
+
+If port 8080 is available then the default frontend page will be on:
+```
+http://localhost:8080/
+```
+and backend:
+```
+http://localhost:8080/api/
+```
+Backend example:
+```
+http://localhost:8080/api/hello
+```
+
+
+
+
 ### VueTs (VueJS + Typescript) configuration
 
 **Please pick a preset:** Manually select features
