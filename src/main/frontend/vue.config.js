@@ -6,5 +6,10 @@ module.exports = {
                 secure: false
             }
         }
+    },
+    configureWebpack: {
+        output: {
+            path: __dirname + "/../resources//static"
+        }
     }
 };
