@@ -24,6 +24,9 @@
 /nbdist/
 /.nb-gradle/
 
+### Visual Studio Code ###
+/.vscode/
+
 ### Frontend ###
 /src/main/frontend/node_modules/
 /src/main/resources/static/
