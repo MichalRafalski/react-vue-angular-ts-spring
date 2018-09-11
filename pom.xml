@@ -68,7 +68,7 @@
 						</goals>
 						<configuration>
 							<!-- Use the same version that you have installed in your system -->
-							<nodeVersion>v8.9.4</nodeVersion>
+							<nodeVersion>v8.11.1</nodeVersion>
 						</configuration>
 					</execution>
 					<!-- Install all frontend dependencies to node_modules-->
