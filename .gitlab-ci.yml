@@ -1,0 +1,12 @@
+image: gitlab-registry.cern.ch/industrial-controls/sw-infra/jenkins/mvn-plus-jdk
+
+stages:
+- build
+
+# Just run tests on feature branches
+build:
+  stage: build
+  script:
+    - mvn -U -B clean test --settings settings.xml
+  except:
+    - master
