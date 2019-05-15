@@ -1,5 +1,17 @@
 // Override default variables before the import
 $body-bg: #282c34;
+$body-color: whitesmoke;
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
+
+/* ------- customize primary buttons -------- */
+$reactlogocolor: #61dafb;
+
+.btn-primary {
+  @include button-variant($reactlogocolor, darken($reactlogocolor, 7.5%), darken($reactlogocolor, 10%), lighten($reactlogocolor,5%), lighten($reactlogocolor, 10%), darken($reactlogocolor,30%));
+}
+
+.btn-outline-primary {
+  @include button-outline-variant($reactlogocolor, #222222, lighten($reactlogocolor,5%), $reactlogocolor);
+}
