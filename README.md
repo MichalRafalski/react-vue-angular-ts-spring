@@ -15,11 +15,16 @@ The goal is to create project seed with:
     * React / VueJS / Angular
     * Typescript
     * Tests E2E + Jest
-    * Bootstrap 4 (not Bootstrap Vue!) + customisation
+    * Bootstrap 4 + customisation
+    * Font Awesome 5
+    * Websockets
 
 
 * Backend:
     * Spring Boot (Maven, REST)
+    * Unit tests
+    * OAuth2
+    * Websockets
     * Swagger
     
     
