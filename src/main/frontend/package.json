@@ -9,7 +9,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build ",
+    "postbuild": "npm run copy-static && npm run copy-js && npm run copy-media && npm run copy-main",
+    "copy-static": "copyfiles -f build/static/css/**.* ../resources/static/static/css && echo CSS files copied",
+    "copy-js": "copyfiles -f build/static/js/**.* ../resources/static/static/js && echo JS files copied",
+    "copy-media": "copyfiles -f build/static/media/**.* ../resources/static/static/media && echo Media files copied",
+    "copy-main": "copyfiles -f build/**.* ../resources/static/ && echo All files copied",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -27,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "copyfiles": "2.1.0"
   }
 }
