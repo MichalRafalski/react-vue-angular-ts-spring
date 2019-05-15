@@ -1,6 +1,11 @@
 # Frontend framework + Spring
 
-Choose your frontend framework by selecting the correct branch.
+![Logo](src/main/resources/seed.png)
+
+Choose your frontend framework by selecting the correct branch:
+* Redux+React
+* Angular
+* Vue.js+Vuex
 
 ## Goal
 
