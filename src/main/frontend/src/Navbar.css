@@ -4,8 +4,8 @@
 
 /*Logo*/
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 3vmin;
+  animation: App-logo-spin infinite 5s linear;
+  height: 26px;
   pointer-events: none;
 }
 
